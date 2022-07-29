@@ -1,0 +1,96 @@
+.bg-image {
+  background: url("https://assets.airtrfx.com/media-em/av/countries/panama-PA.jpg")
+    no-repeat no-repeat;
+  height: 400px;
+}
+
+.header-mask {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.header-btn {
+  margin-bottom: 10px !important;
+}
+
+.bg-blue-marriott{
+  background-color: rgb(255, 255, 255);
+}
+
+.title-color{
+  color: rgb(7, 7, 110);
+}
+
+.jumbotron-user {
+  background: 
+  linear-gradient(
+    rgba(0, 0, 250, 0.25), 
+    rgba(125, 250, 250, 0.45)
+  ),
+  url("https://assets.airtrfx.com/media-em/av/countries/panama-PA.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color:white !important;
+  height:30vh;
+}
+
+.jumbotron-admin {
+  background: 
+  linear-gradient(
+    rgb(7, 7, 110), 
+    rgb(125, 250, 250)
+  );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color:white !important;
+  height:30vh;
+}
+
+.header {
+    color: #36A0FF;
+    font-size: 27px;
+    padding: 10px;
+}
+
+.bigicon {
+    font-size: 35px;
+    color: #36A0FF;
+}
+
+.invert { filter: invert(100%); }
+
+
+form.start-rating {
+  width: auto;
+  margin: 0 10 auto;
+  height: 50px;
+}
+
+p.start-rating {
+  text-align: center;
+}
+
+label.start-rating {
+  font-size: 200%;
+}
+
+input.start-rating[type="radio"] {
+  display: none;
+}
+
+label.start-rating {
+  color: grey;
+}
+
+.clasificacion {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+
+label.start-rating:hover,
+label.start-rating:hover ~ label {
+  color: orange;
+}
+
+input.start-rating[type="radio"]:checked ~ label.start-rating {
+  color: orange;
+}

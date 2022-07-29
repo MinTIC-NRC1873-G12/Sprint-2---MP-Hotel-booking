@@ -1,0 +1,29 @@
+.bg-image {
+  background: url("https://assets.airtrfx.com/media-em/av/countries/panama-PA.jpg")
+    no-repeat no-repeat;
+  height: 400px;
+}
+
+.header-mask {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.header-btn {
+  margin-bottom: 10px !important;
+}
+
+#admin_section{
+  background-color: rgb(7, 7, 110) !important;
+}
+
+#admin_text{
+  text-align: left;
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-right: 15px;
+}
+
+hr{
+  height: 1px;
+  background: rgb(7, 7, 110);
+}
